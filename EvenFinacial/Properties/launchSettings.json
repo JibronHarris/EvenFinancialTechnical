@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "EvenFinancial": {
+      "commandName": "Project",
+      "commandLineArgs": "test.txt"
+    }
+  }
+}

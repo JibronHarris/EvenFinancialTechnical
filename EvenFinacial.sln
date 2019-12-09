@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenFinancial", "EvenFinacial\EvenFinancial.csproj", "{24B38C68-2CE7-4009-AD41-5BCFBD3C785D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24B38C68-2CE7-4009-AD41-5BCFBD3C785D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24B38C68-2CE7-4009-AD41-5BCFBD3C785D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24B38C68-2CE7-4009-AD41-5BCFBD3C785D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24B38C68-2CE7-4009-AD41-5BCFBD3C785D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B959D4D7-A19A-4E6A-8039-11C9A2A8D6F1}
+	EndGlobalSection
+EndGlobal

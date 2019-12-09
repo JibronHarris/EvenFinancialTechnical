@@ -1,0 +1,11 @@
+C:\Users\Jibron\source\repos\EvenFinacial\EvenFinacial\bin\Debug\netcoreapp3.0\EvenFinacial.exe
+C:\Users\Jibron\source\repos\EvenFinacial\EvenFinacial\bin\Debug\netcoreapp3.0\EvenFinacial.deps.json
+C:\Users\Jibron\source\repos\EvenFinacial\EvenFinacial\bin\Debug\netcoreapp3.0\EvenFinacial.runtimeconfig.json
+C:\Users\Jibron\source\repos\EvenFinacial\EvenFinacial\bin\Debug\netcoreapp3.0\EvenFinacial.runtimeconfig.dev.json
+C:\Users\Jibron\source\repos\EvenFinacial\EvenFinacial\bin\Debug\netcoreapp3.0\EvenFinacial.dll
+C:\Users\Jibron\source\repos\EvenFinacial\EvenFinacial\bin\Debug\netcoreapp3.0\EvenFinacial.pdb
+C:\Users\Jibron\source\repos\EvenFinacial\EvenFinacial\obj\Debug\netcoreapp3.0\EvenFinacial.csprojAssemblyReference.cache
+C:\Users\Jibron\source\repos\EvenFinacial\EvenFinacial\obj\Debug\netcoreapp3.0\EvenFinacial.AssemblyInfoInputs.cache
+C:\Users\Jibron\source\repos\EvenFinacial\EvenFinacial\obj\Debug\netcoreapp3.0\EvenFinacial.AssemblyInfo.cs
+C:\Users\Jibron\source\repos\EvenFinacial\EvenFinacial\obj\Debug\netcoreapp3.0\EvenFinacial.dll
+C:\Users\Jibron\source\repos\EvenFinacial\EvenFinacial\obj\Debug\netcoreapp3.0\EvenFinacial.pdb
