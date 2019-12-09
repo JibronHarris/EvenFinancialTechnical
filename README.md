@@ -5,4 +5,5 @@ To use application, build the application, navigate to the debug folder (located
 Example:
 
 EvenFinancial.exe test.txt
+
 (1, 1) (2, 2)
