@@ -15,7 +15,7 @@ namespace EvenFinancial
             int xBound = image.GetUpperBound(0);
             int yBound = image.GetUpperBound(1);
 
-            //printImage(image);
+            printImage(image);
 
             var usedPoints = new List<Tuple<int, int>>();
             var blobs = new List<List<Tuple<int, int>>>();
@@ -35,7 +35,7 @@ namespace EvenFinancial
                 }
             }
 
-            //Covert the blobs into boxes
+            //Convert the blobs into boxes
             var boxesList = new List<Tuple<Tuple<int, int>, Tuple<int, int>>>();
             foreach(var blob in blobs)
             {
@@ -99,7 +99,7 @@ namespace EvenFinancial
         //Determines whether 2 given boxes overlap or not
         private static bool doOverlap(Tuple<int, int> l1, Tuple<int, int> r1, Tuple<int, int> l2, Tuple<int, int> r2)
         {
-            if (l1.Item1 > r2.Item1 || l2.Item1 < r1.Item1)
+            if (l1.Item1 > r2.Item1 || l2.Item1 > r1.Item1)
             {
                 return false;
             }
@@ -118,7 +118,6 @@ namespace EvenFinancial
             var topLeft = coodinate.Item1;
             var botRight = coodinate.Item2;
 
-            bool x;
             foreach (var box in checkList)
             {
                 var boxTopLeft = box.Item1;
@@ -126,10 +125,10 @@ namespace EvenFinancial
 
                 if(doOverlap(topLeft, botRight, boxTopLeft, boxBotRight))
                 {
-                    return false;
+                    return true;
                 }
             }
-            return true;
+            return false;
         }
 
         //Takes a blob and creates a minimum-bounding box for it
