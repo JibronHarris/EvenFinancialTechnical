@@ -15,7 +15,7 @@ namespace EvenFinancial
             int xBound = image.GetUpperBound(0);
             int yBound = image.GetUpperBound(1);
 
-            printImage(image);
+            //printImage(image);
 
             var usedPoints = new List<Tuple<int, int>>();
             var blobs = new List<List<Tuple<int, int>>>();
@@ -210,7 +210,7 @@ namespace EvenFinancial
                 {
                     findAdjacentPixels(image, x, y + 1, list);
                 }
-            }//Below
+            }//Above
             if (y - 1 >= 0)
             {
                 if (image[x, y - 1] == 1 && !list.Contains(Tuple.Create(x, y - 1)))
@@ -227,6 +227,8 @@ namespace EvenFinancial
         {
             var path = AppDomain.CurrentDomain.BaseDirectory;
             var fullPath = path + "\\" + fileLocation;
+
+            Console.WriteLine("Location of file: " + fullPath);
 
             if (!File.Exists(fullPath))
             {
